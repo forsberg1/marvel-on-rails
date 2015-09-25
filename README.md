@@ -1,8 +1,11 @@
-# README #
+# marvel-on-rails
+Marvel api example with rails
 
+# Install notes
+- Clone this repo
 
-### Install ###
+- Go into relevant folder
 
-* Clone this repo: https://forsberg1@bitbucket.org/forsberg1/marvel-on-rails.git
-* Type: bundle in terminal
-* Type: rails s
+- Do a bundle
+
+- Last type rails s to start an instance of rails server.
