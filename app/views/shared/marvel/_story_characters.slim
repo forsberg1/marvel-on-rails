@@ -1,0 +1,6 @@
+- story_character['data']['results'].each do |character|
+  .col-sm-4.col-md-4.text-center
+    .thumbnail
+      = image_tag(character_thumbnail_uri(character['thumbnail']))
+      .caption
+        h4.upercase = character['name']

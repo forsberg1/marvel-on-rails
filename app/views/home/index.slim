@@ -1,0 +1,6 @@
+.col-xs-12.text-center
+  - if @story
+    h1 = @story['data']["results"][0]['title']
+    p  = @story['data']["results"][0]['description']
+    = render 'shared/marvel/story_characters', story_character: @story_characters
+    p = @story['attributionText']

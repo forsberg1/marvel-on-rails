@@ -1,0 +1,13 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.thumbnail {
+  padding-top: 20px;
+
+  img {
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 9px 0px rgba(50, 50, 50, 0.54);
+    -moz-box-shadow:    1px 1px 9px 0px rgba(50, 50, 50, 0.54);
+    box-shadow:         1px 1px 9px 0px rgba(50, 50, 50, 0.54);
+  }
+}
